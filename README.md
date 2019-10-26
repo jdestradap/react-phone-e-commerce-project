@@ -1,5 +1,17 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Paypal test - users
+
+### As an owner
+
+user: sb-fmrq6464260@personal.example.com
+passwd: test1234
+
+### As a buyer
+
+user: sb-fpy5t463974@business.example.com
+passwd: test1234
+
 ## Good links to listen
 
 Contexto Google Analytics:
@@ -18,7 +30,19 @@ Introduccion a Google Tag Manager Part 4: https://www.youtube.com/watch?v=FVNd2M
 Introduccion a Google Tag Manager Part 5:https://www.youtube.com/watch?v=TBGEEoeRNFQ
 Introduccion a Google Tag Manager Part 6: https://www.youtube.com/watch?v=YEu6ujplBPI
 Introduccion a Google Tag Manager Part 7: https://www.youtube.com/watch?v=iHh0Z2SRDeY
- 
+
+## Ecommerce URLs:
+
+### DashBoard: Products
+domain/
+
+### Detail: Product
+
+domain/details
+
+### 
+ /details
+- /details
 
 ## Available Scripts
 
