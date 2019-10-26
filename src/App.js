@@ -28,7 +28,7 @@ class App extends Component {
   }
 }
 function initializeReactGA() {
-  ReactGA.initialize('UA-123791717-1');
+  ReactGA.initialize('UA-150811579-1');
   ReactGA.pageview('/homepage');
 }
 export default App;
