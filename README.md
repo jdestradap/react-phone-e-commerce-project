@@ -1,5 +1,25 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Good links to listen
+
+Contexto Google Analytics:
+Google Analytics Part 1: https://www.youtube.com/watch?v=RL61v47WyHs
+Google Analytics Part 2 - : https://www.youtube.com/watch?v=ZM-ZH3m7zSA
+Google Analytics Part 3 - How to analyse data: https://www.youtube.com/watch?v=-boZudlCXI4
+Google Analytics Part 4 - How to create change with Google Analytics: https://www.youtube.com/watch?v=KbURumBxCWQ
+Google Analylics Part 5 - Analytics report: https://www.youtube.com/watch?v=FFd7EP-Er1s
+ 
+
+Contexto Google Tag Manger:
+Introducción a Google tag Manager Part 1: https://www.youtube.com/watch?v=WPEdkc_feNM
+Introduccion a Google Tag Manager Part 2: https://www.youtube.com/watch?v=0ty8Z8fjgvQ
+Introduccion a Google Tag Manager Part 3: https://www.youtube.com/watch?v=uZkhtCg8OYc
+Introduccion a Google Tag Manager Part 4: https://www.youtube.com/watch?v=FVNd2MnT9QU
+Introduccion a Google Tag Manager Part 5:https://www.youtube.com/watch?v=TBGEEoeRNFQ
+Introduccion a Google Tag Manager Part 6: https://www.youtube.com/watch?v=YEu6ujplBPI
+Introduccion a Google Tag Manager Part 7: https://www.youtube.com/watch?v=iHh0Z2SRDeY
+ 
+
 ## Available Scripts
 
 In the project directory, you can run:
