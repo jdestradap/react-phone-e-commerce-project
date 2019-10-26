@@ -8,8 +8,11 @@ import Details from "./components/Details";
 import Default from "./components/Default";
 import Cart from "./components/Cart";
 import Modal from "./components/Modal";
+import ReactGA from 'react-ga';
+
 class App extends Component {
   render() {
+    initializeReactGA()
     return (
       <React.Fragment>
         <Navbar />
@@ -24,5 +27,8 @@ class App extends Component {
     );
   }
 }
-
+function initializeReactGA() {
+  ReactGA.initialize('UA-123791717-1');
+  ReactGA.pageview('/homepage');
+}
 export default App;
