@@ -34,15 +34,16 @@ Introduccion a Google Tag Manager Part 7: https://www.youtube.com/watch?v=iHh0Z2
 ## Ecommerce URLs:
 
 ### DashBoard: Products
-domain/
+[domain]/
 
 ### Detail: Product
 
-domain/details
+[domain]/details
 
-### 
- /details
-- /details
+
+### To send the events
+
+https://support.mouseflow.com/support/solutions/articles/44001535025-tracking-url-changes-with-react
 
 ## Available Scripts
 
