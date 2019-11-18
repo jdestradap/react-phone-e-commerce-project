@@ -9,10 +9,13 @@ import Default from "./components/Default";
 import Cart from "./components/Cart";
 import Modal from "./components/Modal";
 import ReactGA from 'react-ga';
+import TagManager from 'react-gtm-module';
+
 
 class App extends Component {
   render() {
     initializeReactGA()
+    TagManager.initialize(tagManagerArgs)
     return (
       <React.Fragment>
         <Navbar />
@@ -32,4 +35,9 @@ function initializeReactGA() {
   // ReactGA.pageview('/homepage');
   // history.listen(location => ReactGA.pageview(location.pathname));
 }
+
+const tagManagerArgs = {
+  gtmId: 'GTM-T7KMG5B'
+}
+
 export default App;
