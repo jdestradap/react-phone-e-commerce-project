@@ -8,14 +8,20 @@ import Details from "./components/Details";
 import Default from "./components/Default";
 import Cart from "./components/Cart";
 import Modal from "./components/Modal";
-import ReactGA from 'react-ga';
 import TagManager from 'react-gtm-module';
-
 
 class App extends Component {
   render() {
-    initializeReactGA()
-    TagManager.initialize(tagManagerArgs)
+
+    const tagManagerArgs = {
+      dataLayer: {
+          event: 'Pageview',
+          pagePath: '/',
+          pageTitle: 'All products'
+      }
+    }
+
+    TagManager.dataLayer(tagManagerArgs)
     return (
       <React.Fragment>
         <Navbar />
@@ -30,14 +36,14 @@ class App extends Component {
     );
   }
 }
-function initializeReactGA() {
-  ReactGA.initialize('UA-150811579-1');
-  // ReactGA.pageview('/homepage');
-  // history.listen(location => ReactGA.pageview(location.pathname));
-}
-
-const tagManagerArgs = {
-  gtmId: 'GTM-T7KMG5B'
-}
-
 export default App;
+
+// <!-- Global site tag (gtag.js) - Google Analytics -->
+// <script async src="https://www.googletagmanager.com/gtag/js?id=UA-150811579-1"></script>
+// <script>
+// window.dataLayer = window.dataLayer || [];
+// function gtag(){dataLayer.push(arguments);}
+// gtag('js', new Date());
+
+// gtag('config', 'UA-150811579-1', { 'optimize_id': 'GTM-59K8QH6'});
+// </script>

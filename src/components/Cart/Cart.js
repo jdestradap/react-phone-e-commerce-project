@@ -5,8 +5,19 @@ import CartList from "./CartList";
 import CartTotals from "./CartTotals";
 import { ProductConsumer } from "../../context";
 import EmptyCart from "./EmptyCart";
+import TagManager from 'react-gtm-module';
+
 export default class Store extends Component {
   render() {
+    const tagManagerArgs = {
+      dataLayer: {
+          event: 'Pageview',
+          pagePath: '/cart',
+          pageTitle: 'Cart checkout'
+      }
+    }
+
+    TagManager.dataLayer(tagManagerArgs)
     return (
       <section>
         <ProductConsumer>

@@ -5,6 +5,14 @@ import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 import { BrowserRouter as Router } from "react-router-dom";
 import { ProductProvider } from "./context";
+import TagManager from 'react-gtm-module';
+
+const tagManagerArgs = {
+  gtmId: 'GTM-T7KMG5B'
+}
+
+TagManager.initialize(tagManagerArgs)
+
 ReactDOM.render(
   <ProductProvider>
     <Router>
